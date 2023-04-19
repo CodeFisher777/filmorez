@@ -1,0 +1,51 @@
+{
+  "seriesGenreFirstColumn": [
+    { "name": "Биография", "link": "/arthouse" },
+    { "name": "Боевики", "link": "/arthouse" },
+    { "name": "Военные", "link": "/arthouse" },
+    { "name": "Детективы", "link": "/arthouse" },
+    { "name": "Для всей семьи", "link": "/arthouse" },
+    { "name": "Для детей", "link": "/arthouse" },
+    { "name": "Документальные", "link": "/arthouse" },
+    { "name": "Дорамы", "link": "/arthouse" },
+    { "name": "Драмы", "link": "/arthouse" },
+    { "name": "Исторические", "link": "/arthouse" },
+    { "name": "Комедийные", "link": "/arthouse" },
+    { "name": "Криминальные", "link": "/arthouse" }
+  ],
+  "seriesGenreSecondColumn": [
+    { "name": "Медицинские", "link": "/arthouse" },
+    { "name": "Мелодрамы", "link": "/arthouse" },
+    { "name": "Мистические", "link": "/arthouse" },
+    { "name": "Приключения", "link": "/arthouse" },
+    { "name": "Романтические", "link": "/arthouse" },
+    { "name": "Телешоу", "link": "/arthouse" },
+    { "name": "Триллеры", "link": "/arthouse" },
+    { "name": "Турецкие", "link": "/arthouse" },
+    { "name": "Ужасы", "link": "/arthouse" },
+    { "name": "Фантастика", "link": "/arthouse" },
+    { "name": "Фэнтези", "link": "/arthouse" }
+  ],
+  "seriesCountryes": [
+    { "name": "Русские", "link": "/arthouse" },
+    { "name": "Зарубежные", "link": "/arthouse" },
+    { "name": "Американские", "link": "/arthouse" },
+    { "name": "Украинские", "link": "/arthouse" },
+    { "name": "Корейские", "link": "/arthouse" },
+    { "name": "Турецкие", "link": "/arthouse" }
+  ],
+  "seriesYears": [
+    { "name": "Фильмы 2023 года", "link": "/arthouse" },
+    { "name": "Фильмы 2022 года", "link": "/arthouse" },
+    { "name": "Фильмы 2021 года", "link": "/arthouse" },
+    { "name": "Фильмы 2020 года", "link": "/arthouse" }
+  ],
+  "seriesMenu": [
+    { "name": "Новинки", "link": "/arthouse" },
+    { "name": "Filmorezka рейтинг", "link": "/arthouse" },
+    { "name": "Сериалы в HD", "link": "/arthouse" },
+    { "name": "Бесплатные сериалы", "link": "/arthouse" },
+    { "name": "Сериалы Амедиатека", "link": "/arthouse" },
+    { "name": "Сериалы Paramount play", "link": "/arthouse" }
+  ]
+}

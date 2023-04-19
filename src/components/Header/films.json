@@ -1,0 +1,50 @@
+{
+  "filmsGenreFirstColumn": [
+    { "name": "Артхаус", "link": "/arthouse" },
+    { "name": "Боевики", "link": "/arthouse" },
+    { "name": "Вестерн", "link": "/arthouse" },
+    { "name": "Военные", "link": "/arthouse" },
+    { "name": "Детективы", "link": "/arthouse" },
+    { "name": "Для всей семьи", "link": "/arthouse" },
+    { "name": "Для детей", "link": "/arthouse" },
+    { "name": "Документальные", "link": "/arthouse" },
+    { "name": "Драмы", "link": "/arthouse" },
+    { "name": "Исторические", "link": "/arthouse" },
+    { "name": "Катастрофы", "link": "/arthouse" }
+  ],
+  "filmsGenreSecondColumn": [
+    { "name": "Комедии", "link": "/arthouse" },
+    { "name": "Криминальные", "link": "/arthouse" },
+    { "name": "Мелодрамы", "link": "/arthouse" },
+    { "name": "Приклчения", "link": "/arthouse" },
+    { "name": "Спорт", "link": "/arthouse" },
+    { "name": "Триллеры", "link": "/arthouse" },
+    { "name": "Ужасы", "link": "/arthouse" },
+    { "name": "Фантастика", "link": "/arthouse" },
+    { "name": "Фэнтези", "link": "/arthouse" }
+  ],
+  "filmsCountryes": [
+    { "name": "Русские", "link": "/arthouse" },
+    { "name": "Зарубежные", "link": "/arthouse" },
+    { "name": "Советское кино", "link": "/arthouse" }
+  ],
+  "filmsYears": [
+    { "name": "Фильмы 2023 года", "link": "/arthouse" },
+    { "name": "Фильмы 2022 года", "link": "/arthouse" },
+    { "name": "Фильмы 2021 года", "link": "/arthouse" },
+    { "name": "Фильмы 2020 года", "link": "/arthouse" }
+  ],
+  "filmsMenu": [
+    { "name": "Новинки", "link": "/arthouse" },
+    { "name": "Подборки", "link": "/arthouse" },
+    { "name": "Рейтинг", "link": "/arthouse" },
+    { "name": "Скоро на фильморезке", "link": "/arthouse" },
+    { "name": "Трейлеры", "link": "/arthouse" },
+    { "name": "Что посмотреть ", "link": "/arthouse" },
+    { "name": "Выбор фильморезки", "link": "/arthouse" },
+    { "name": "Фильмы Амедиатека", "link": "/arthouse" },
+    { "name": "Популярные фильмы", "link": "/arthouse" },
+    { "name": "Фильмы filmorezkи", "link": "/arthouse" },
+    { "name": "Новинки подписки", "link": "/arthouse" }
+  ]
+}
