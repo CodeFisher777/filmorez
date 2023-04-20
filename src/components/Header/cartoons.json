@@ -1,0 +1,45 @@
+{
+  "cartoonsGenreFirstColumn": [
+    { "name": "Аниме", "link": "/arthouse" },
+    { "name": "Боевик", "link": "/arthouse" },
+    { "name": "Детектив", "link": "/arthouse" },
+    { "name": "Для взрослых", "link": "/arthouse" },
+    { "name": "Для всей семьи", "link": "/arthouse" },
+    { "name": "Для детей", "link": "/arthouse" },
+    { "name": "Драма", "link": "/arthouse" },
+    { "name": "История", "link": "/arthouse" },
+    { "name": "Комедия", "link": "/arthouse" },
+    { "name": "Криминальные", "link": "/arthouse" },
+    { "name": "Мюзикл", "link": "/arthouse" }
+  ],
+  "cartoonsGenreSecondColumn": [
+    { "name": "Полнометражные", "link": "/arthouse" },
+    { "name": "Приключения", "link": "/arthouse" },
+    { "name": "Развивающие", "link": "/arthouse" },
+    { "name": "Сериалы", "link": "/arthouse" },
+    { "name": "Спорт", "link": "/arthouse" },
+    { "name": "Триллеры", "link": "/arthouse" },
+    { "name": "Ужасы", "link": "/arthouse" },
+    { "name": "Фантастика", "link": "/arthouse" },
+    { "name": "Фэнтези", "link": "/arthouse" }
+  ],
+  "cartoonsCountryes": [
+    { "name": "Советские", "link": "/arthouse" },
+    { "name": "Русские", "link": "/arthouse" },
+    { "name": "Американские", "link": "/arthouse" },
+    { "name": "Зарубежные", "link": "/arthouse" }
+  ],
+  "cartoonsYears": [
+    { "name": "Фильмы 2023 года", "link": "/arthouse" },
+    { "name": "Фильмы 2022 года", "link": "/arthouse" },
+    { "name": "Фильмы 2021 года", "link": "/arthouse" },
+    { "name": "Фильмы 2020 года", "link": "/arthouse" }
+  ],
+  "cartoonsMenu": [
+    { "name": "Новинки", "link": "/arthouse" },
+    { "name": "Мультики в HD", "link": "/arthouse" },
+    { "name": "Мультфильмы в Paramount Play", "link": "/arthouse" },
+    { "name": "Мультфильмы в Dreamworks", "link": "/arthouse" },
+    { "name": "Мультфильмы в СТС Kids", "link": "/arthouse" }
+  ]
+}

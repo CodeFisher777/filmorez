@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './header.module.scss';
 import Link from 'next/link';
-
+import logo3 from './logo3.jpg';
+import { Button } from '../UI/Button';
 type Links = {
   name: string;
   link: string;
@@ -67,11 +68,31 @@ export const LinkBlock: React.FC<LinkBlockProps> = ({
         <ul>
           {menu.map((item) => (
             <li>
-              <Link href={baseUrl + item.link}>{item.name}</Link>
+              <Link href={baseUrl + item.link}> {item.name}</Link>
             </li>
           ))}
         </ul>
-        <div>какая-то дичь</div>
+        <div>
+          <div className={styles.root__left__block__animation}>
+            <div className={styles.root__left__block__animation__slider}>слайдер</div>
+            <div className={styles.root__left__block__animation__logoplustext}>
+              <img src={logo3.src} alt="" />
+              <div>
+                <span>Подписка Иви</span>
+                <p>от 190 р за месяц</p>
+              </div>
+            </div>
+            <div className={styles.root__left__block__animation__podpiska}>
+              <Button title="Подключить" />
+              <p className={styles.root__left__block__animation__podpiska__off}>
+                Отключить можно в любой момент
+              </p>
+            </div>
+          </div>
+          <div className={styles.root__left__block__smartTv}>
+            <Link href="#">Смотреть на smartTv</Link>
+          </div>
+        </div>
       </div>
     </div>
   );

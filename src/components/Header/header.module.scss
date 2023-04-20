@@ -7,7 +7,7 @@
 }
 .root {
   position: relative;
-  background-color: #100e19;
+  background-color: #1f1b2e;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   a {
@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 558px;
+
     &__logo {
       width: 66px;
       height: 48px;
@@ -42,6 +42,9 @@
     &__block {
       width: 1216px;
       display: none;
+      border-top: 1px solid grey;
+      // visibility: hidden;
+      // opacity: 0;
       position: absolute;
       justify-content: space-between;
       align-items: baseline;
@@ -50,10 +53,64 @@
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
 
-      background-color: #100e19;
+      background-color: #1f1b2e;
 
       &__leftside {
         display: flex;
+      }
+      &__animation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #3a3352;
+        margin-right: 10px;
+        border-radius: 5px;
+        &__slider {
+          height: 150px;
+        }
+        &__logoplustext {
+          width: 212px;
+          display: flex;
+          margin-bottom: 10px;
+          justify-content: center;
+          img {
+            margin-right: 5px;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+          }
+          span {
+            font-weight: 600;
+          }
+          p {
+            margin: 0px;
+            font-size: 14px;
+          }
+        }
+        &__podpiska {
+          text-align: center;
+          button {
+            width: 190px;
+          }
+          &__off {
+            font-size: 12px;
+          }
+        }
+      }
+      &__smartTv {
+        padding: 10px;
+        text-align: center;
+        width: 190px;
+        background-color: #3a3352d9;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+        &:hover {
+          background-color: #3a3352;
+        }
+        a {
+          color: white !important;
+        }
       }
     }
     &__genre {
@@ -69,13 +126,12 @@
       }
     }
     &__mainUl {
-      width: 492px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       list-style-type: none;
       &__mainLink {
-        padding: 30px 0;
+        padding: 30px 10px;
       }
       li {
         a {
@@ -89,8 +145,11 @@
             color: white;
           }
         }
-        transition: 0.9s ease-in-out;
+        transition: 3s ease-in-out;
+
         &:hover > div {
+          // visibility: visible;
+          // opacity: 1;
           display: flex;
         }
         ul {
@@ -108,7 +167,7 @@
       width: 614px;
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
     }
   }
   &__right {

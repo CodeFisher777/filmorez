@@ -4,6 +4,13 @@ import Button from '../UI/Button/Button';
 import styles from './header.module.scss';
 import logo2 from './logo2.png';
 import {
+  cartoonsGenreFirstColumn,
+  cartoonsGenreSecondColumn,
+  cartoonsYears,
+  cartoonsCountryes,
+  cartoonsMenu,
+} from './cartoons.json';
+import {
   filmsGenreFirstColumn,
   filmsGenreSecondColumn,
   filmsYears,
@@ -68,6 +75,13 @@ const Header: React.FC = () => {
                   <Link href="#" className={styles.root__left__mainUl__mainLink}>
                     Мультфильмы
                   </Link>
+                  <LinkBlock
+                    genreFirstColumn={cartoonsGenreFirstColumn}
+                    genreSecondColumn={cartoonsGenreSecondColumn}
+                    years={cartoonsYears}
+                    countryes={cartoonsCountryes}
+                    menu={cartoonsMenu}
+                  />
                 </li>
                 <li>
                   <Link href="#" className={styles.root__left__mainUl__mainLink}>
